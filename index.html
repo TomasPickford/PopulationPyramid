@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+
+<head>
+    <title>Population Pyramid</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="chart.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Population Pyramid Demo</h1>
+    <p>This example must be hosted on a server (rather than opened as a file) to avoid most browsers throwing a CORS (security) error.</p>
+    <p>This chart shows the populations of males (in blue) and females (in pink) of different age groups in Spain.
+        You can view previous decades to see how average lifespan has increased,
+        and how individual generations have declined over the years.</p>
+    <p id="range_display"> Calculating the range of years of data...</p>
+    <p>Use the buttons to change the year.</p>
+    <button onclick="previous()">Previous</button>
+    <button onclick="next()">Next</button>
+    <br>
+</body>
+
+</html>
